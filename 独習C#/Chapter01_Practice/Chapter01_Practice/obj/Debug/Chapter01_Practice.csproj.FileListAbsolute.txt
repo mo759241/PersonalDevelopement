@@ -1,0 +1,7 @@
+C:\VS_Solution\Chapter01_Practice\Chapter01_Practice\obj\Debug\Chapter01_Practice.csprojAssemblyReference.cache
+C:\VS_Solution\Chapter01_Practice\Chapter01_Practice\obj\Debug\Chapter01_Practice.csproj.CoreCompileInputs.cache
+C:\VS_Solution\Chapter01_Practice\Chapter01_Practice\bin\Debug\Chapter01_Practice.exe.config
+C:\VS_Solution\Chapter01_Practice\Chapter01_Practice\bin\Debug\Chapter01_Practice.exe
+C:\VS_Solution\Chapter01_Practice\Chapter01_Practice\bin\Debug\Chapter01_Practice.pdb
+C:\VS_Solution\Chapter01_Practice\Chapter01_Practice\obj\Debug\Chapter01_Practice.exe
+C:\VS_Solution\Chapter01_Practice\Chapter01_Practice\obj\Debug\Chapter01_Practice.pdb

@@ -1,0 +1,13 @@
+C:\VS_Solution\Chapter06_Practice\Chapter06_Practice\bin\Debug\netcoreapp3.1\Chapter06_Practice.exe
+C:\VS_Solution\Chapter06_Practice\Chapter06_Practice\bin\Debug\netcoreapp3.1\Chapter06_Practice.deps.json
+C:\VS_Solution\Chapter06_Practice\Chapter06_Practice\bin\Debug\netcoreapp3.1\Chapter06_Practice.runtimeconfig.json
+C:\VS_Solution\Chapter06_Practice\Chapter06_Practice\bin\Debug\netcoreapp3.1\Chapter06_Practice.runtimeconfig.dev.json
+C:\VS_Solution\Chapter06_Practice\Chapter06_Practice\bin\Debug\netcoreapp3.1\Chapter06_Practice.dll
+C:\VS_Solution\Chapter06_Practice\Chapter06_Practice\bin\Debug\netcoreapp3.1\Chapter06_Practice.pdb
+C:\VS_Solution\Chapter06_Practice\Chapter06_Practice\obj\Debug\netcoreapp3.1\Chapter06_Practice.csprojAssemblyReference.cache
+C:\VS_Solution\Chapter06_Practice\Chapter06_Practice\obj\Debug\netcoreapp3.1\Chapter06_Practice.AssemblyInfoInputs.cache
+C:\VS_Solution\Chapter06_Practice\Chapter06_Practice\obj\Debug\netcoreapp3.1\Chapter06_Practice.AssemblyInfo.cs
+C:\VS_Solution\Chapter06_Practice\Chapter06_Practice\obj\Debug\netcoreapp3.1\Chapter06_Practice.csproj.CoreCompileInputs.cache
+C:\VS_Solution\Chapter06_Practice\Chapter06_Practice\obj\Debug\netcoreapp3.1\Chapter06_Practice.dll
+C:\VS_Solution\Chapter06_Practice\Chapter06_Practice\obj\Debug\netcoreapp3.1\Chapter06_Practice.pdb
+C:\VS_Solution\Chapter06_Practice\Chapter06_Practice\obj\Debug\netcoreapp3.1\Chapter06_Practice.genruntimeconfig.cache

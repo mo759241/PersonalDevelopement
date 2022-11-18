@@ -1,0 +1,11 @@
+同フォルダにあるpackageファイルをC:\PersonalDevToolに移動して、管理者権限で開いたコマンドプロンプトから以下を実行します。
+ログイン画面が立ち上がるので、エンティティ定義を出力したい環境にログインします。
+
+cd C:\PersonalDevTool\packages\Microsoft.CrmSdk.CoreTools.9.1.0.115\content\bin\coretools
+CrmSvcUtil.exe /out:C:\PersonalDevTool\EarlyBindEntities.cs /namespace:MetaDataDocumentGenerator_UI /serviceContextName:MyContext /interactivelogin:true
+
+■テスト用アカウント
+admin@tooltest001.onmicrosoft.com
+P@ssw0rd
+
+実行後に作成された　C:\PersonalDevTool\EarlyBindEntities.cs　をMetaDataDocumentGenerator_UIフォルダの配下に格納します。（既存のファイルがある場合は上書きして下さい。）

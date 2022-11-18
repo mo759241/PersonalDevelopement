@@ -1,0 +1,7 @@
+C:\Users\pensa\OneDrive\ドキュメント\独習C#\Chapter11_Practice\Chapter11_Practice\bin\Debug\Chapter11_Practice.exe.config
+C:\Users\pensa\OneDrive\ドキュメント\独習C#\Chapter11_Practice\Chapter11_Practice\bin\Debug\Chapter11_Practice.exe
+C:\Users\pensa\OneDrive\ドキュメント\独習C#\Chapter11_Practice\Chapter11_Practice\bin\Debug\Chapter11_Practice.pdb
+C:\Users\pensa\OneDrive\ドキュメント\独習C#\Chapter11_Practice\Chapter11_Practice\obj\Debug\Chapter11_Practice.csprojAssemblyReference.cache
+C:\Users\pensa\OneDrive\ドキュメント\独習C#\Chapter11_Practice\Chapter11_Practice\obj\Debug\Chapter11_Practice.csproj.CoreCompileInputs.cache
+C:\Users\pensa\OneDrive\ドキュメント\独習C#\Chapter11_Practice\Chapter11_Practice\obj\Debug\Chapter11_Practice.exe
+C:\Users\pensa\OneDrive\ドキュメント\独習C#\Chapter11_Practice\Chapter11_Practice\obj\Debug\Chapter11_Practice.pdb
