@@ -20,6 +20,7 @@ namespace MetaDataDocumentGenerator_UI
                                                                  };
         readonly public static Dictionary<string, string> TranOwnershipType = new Dictionary<string, string>()
                                                                  {
+                                                                     { "None", "-" } ,
                                                                      { "UserOwned", "ユーザーまたはチーム" } ,
                                                                      { "BusinessOwned", "部署" },
                                                                      { "OrganizationOwned", "組織" }

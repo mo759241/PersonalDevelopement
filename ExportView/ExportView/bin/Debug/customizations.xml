@@ -1,0 +1,3057 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities>
+    <Entity>
+      <Name LocalizedName="取引先企業 " OriginalName="">Account</Name>
+      <EntityInfo>
+        <entity Name="Account" unmodified="1">
+          <attributes />
+        </entity>
+      </EntityInfo>
+      <FormXml>
+        <forms type="main">
+          <systemform>
+            <formid>{b053a39a-041a-4356-acef-ddf00182762b}</formid>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <FormPresentation>0</FormPresentation>
+            <FormActivationState>0</FormActivationState>
+            <form showImage="true">
+              <tabs>
+                <tab name="general" verticallayout="true" id="{13b0fbf2-e596-4dc5-919b-7a0aea72598b}" IsUserDefined="0" ordinalvalue="0">
+                  <columns>
+                    <column width="100%" id="0">
+                      <sections>
+                        <section name="account information" showlabel="false" showbar="false" id="{407c4e29-b766-4efb-986c-f4c1d9be75ce}" IsUserDefined="0" ordinalvalue="0">
+                          <rows>
+                            <row>
+                              <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{a3379818-595d-4404-beca-9a80bd4efc01}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="フリガナ (取引先企業名)" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{10b26e53-bc30-481a-982e-3f70c476cd6a}" ordinalvalue="20001">
+                                <labels>
+                                  <label description="代表電話" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{ea0b806e-b8ff-474e-a676-962a67ec191d}" ordinalvalue="10002">
+                                <labels>
+                                  <label description="取引先企業名" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{6ad12b41-f944-4536-b710-0223a9cd0e25}" ordinalvalue="20003">
+                                <labels>
+                                  <label description="その他の電話" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{4c14f897-986a-40dc-a7ba-df7801d13f01}" ordinalvalue="10004">
+                                <labels>
+                                  <label description="取引先企業番号" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{c5fd4d12-00d0-45d1-9e60-595d27c4f4fc}" ordinalvalue="20005">
+                                <labels>
+                                  <label description="FAX" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{a8a9ce07-fda7-4329-8c1f-abf5cf028319}" ordinalvalue="10006">
+                                <labels>
+                                  <label description="取引先企業の親会社" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{b0d69ad5-9803-48bd-b7ff-145ace4093e5}" ordinalvalue="20007">
+                                <labels>
+                                  <label description="Web サイト" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{414469ee-8334-476e-ae58-8ac4692d03eb}" ordinalvalue="10008">
+                                <labels>
+                                  <label description="取引先責任者" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{dd9cfe1d-a28a-4626-b56c-a247b5c7b759}" ordinalvalue="20009">
+                                <labels>
+                                  <label description="電子メール" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{75231669-b6e4-42c1-98fa-ed1fd2d4091b}" ordinalvalue="10010">
+                                <labels>
+                                  <label description="関係内容" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{33b5e3cb-6765-4cea-b1a6-b7fa071e942f}" ordinalvalue="20011">
+                                <labels>
+                                  <label description="通貨型" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="description" showlabel="true" showbar="true" id="{371fc62b-6e62-4cad-9f70-76da338b39a3}" IsUserDefined="0" height="auto" ordinalvalue="5">
+                          <rows>
+                            <row>
+                              <cell colspan="2" showlabel="false" rowspan="5" auto="true" id="{679a0c59-4a19-4383-95a6-0df4d8b7dafa}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="説明" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+                <tab name="details" id="{e8642bdb-3b0b-4ce4-bcca-646d04e856cb}" IsUserDefined="0" ordinalvalue="1">
+                  <columns>
+                    <column width="100%" id="0">
+                      <sections>
+                        <section name="professional information" showlabel="true" showbar="true" id="{2bb37cd5-2d02-47cc-8464-27e5aa1c400d}" IsUserDefined="0" ordinalvalue="0">
+                          <rows>
+                            <row>
+                              <cell colspan="2" id="{cc9400cb-5058-460d-a8e3-8ca46fe1b00c}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="業種" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{b0dd608d-2913-43dc-9f37-386239b8c8ca}" ordinalvalue="10001">
+                                <labels>
+                                  <label description="売上高" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{27022de3-5e5e-4d79-a540-0e99c54f2ea4}" ordinalvalue="20002">
+                                <labels>
+                                  <label description="企業形態" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{20355ff9-a398-4f97-8fc9-86ad60b4de78}" ordinalvalue="10003">
+                                <labels>
+                                  <label description="従業員数" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{ca60d618-c7f6-4dff-86bb-c80a4bf4383f}" ordinalvalue="20004">
+                                <labels>
+                                  <label description="株式銘柄コード" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{cec04501-3f93-40ab-afb3-3fba3bd15547}" ordinalvalue="10005">
+                                <labels>
+                                  <label description="業種コード" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="description" id="{22c54202-b263-46e5-9676-47112c3be47d}" ordinalvalue="1">
+                          <rows>
+                            <row>
+                              <cell id="{2f4ffee8-4252-4343-8657-76ad64a3c0a0}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="担当地域" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{75231669-b6e4-42c1-98fa-ed1fd2d4091b}" ordinalvalue="20001">
+                                <labels>
+                                  <label description="関係内容" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{e869b293-84be-4743-a71a-fe6eca532aad}" ordinalvalue="10002">
+                                <labels>
+                                  <label description="カテゴリ" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="billing information" id="{0243b19c-f88a-410c-9d90-0862142c56e2}" ordinalvalue="2">
+                          <rows>
+                            <row>
+                              <cell id="{33b5e3cb-6765-4cea-b1a6-b7fa071e942f}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="通貨型" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{98872a67-595f-4a39-93fc-628a0d4aec4e}" ordinalvalue="20001">
+                                <labels>
+                                  <label description="支払条件" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{b978afe4-1145-4d11-b73d-2d3a75674628}" ordinalvalue="10002">
+                                <labels>
+                                  <label description="利用限度額" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{88b1eb8d-6cb7-4172-a2e9-68d7f702a941}" ordinalvalue="20003">
+                                <labels>
+                                  <label description="クレジットの留保" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{1eefa848-c48d-47c9-8ff4-796403c5a51a}" ordinalvalue="10004">
+                                <labels>
+                                  <label description="価格表" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+                <tab name="administration" id="{5b8906be-c80f-4c26-8ba2-b07f45cb2936}" IsUserDefined="0" ordinalvalue="4">
+                  <columns>
+                    <column width="100%" id="0">
+                      <sections>
+                        <section name="internal information" showlabel="false" showbar="false" id="{e40e4201-ddc0-4384-bb7a-44dd8be88ec6}" IsUserDefined="0" ordinalvalue="0">
+                          <rows>
+                            <row>
+                              <cell id="{670dc25c-ddd3-422a-9981-e3cd3d977948}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="所有者" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="marketing information" showlabel="true" showbar="true" locklevel="0" id="{7f86a255-fe14-4b3a-89ba-e1265712c006}" IsUserDefined="0" layout="varheight" columns="11" ordinalvalue="2">
+                          <rows>
+                            <row>
+                              <cell id="{5d977a22-6ea8-4b46-90ed-092755c9eb08}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="元のリード" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{5f0552ba-6db6-4da0-b2a7-b388d3c8d280}" ordinalvalue="20001">
+                                <labels>
+                                  <label description="キャンペーン前回実行日" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{edbbf74d-9d9b-4646-9972-e104503c87e8}" ordinalvalue="10002">
+                                <labels>
+                                  <label description="マーケティング資料の送付" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="service preferences" showlabel="true" showbar="true" id="{DFF21ED1-106A-46FA-9C23-739C909FC16C}" IsUserDefined="0" ordinalvalue="3">
+                          <rows>
+                            <row>
+                              <cell id="{ad68a13b-fc81-48a0-ae32-b73c15f44c2d}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="希望曜日" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{8143f220-03cc-4174-95e1-6ddda80316fc}" ordinalvalue="20001">
+                                <labels>
+                                  <label description="希望時間帯" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{c0894e23-3db1-4bcb-b0f9-450ed1584b0c}" ordinalvalue="10002">
+                                <labels>
+                                  <label description="優先するユーザー" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+              <header id="{2b89aa75-b991-4875-88b0-d7ed40d2aaf3}" celllabelposition="Top">
+                <rows>
+                  <row>
+                    <cell id="{d7deb60b-a95d-5a1a-5c0b-3600cda8743c}" ordinalvalue="10000">
+                      <labels>
+                        <label description="取引先責任者" languagecode="1041" solutionaction="Modified" />
+                      </labels>
+                    </cell>
+                    <cell id="{b8d5b412-13ce-83b0-15e5-e13754c73da7}" ordinalvalue="20001">
+                      <labels>
+                        <label description="優先する連絡方法" languagecode="1041" solutionaction="Modified" />
+                      </labels>
+                    </cell>
+                    <cell id="{5e00a0b1-b693-1603-3bd9-612d1b3da9a0}" ordinalvalue="30002">
+                      <labels>
+                        <label description="所有者" languagecode="1041" solutionaction="Modified" />
+                      </labels>
+                    </cell>
+                  </row>
+                  <row>
+                    <cell id="{4d0995d9-05d8-4b10-7e31-3631128e4163}" ordinalvalue="10003">
+                      <labels>
+                        <label description="利用限度額" languagecode="1041" solutionaction="Modified" />
+                      </labels>
+                    </cell>
+                    <cell id="{ca66c1d0-7d7a-1e71-c030-57125acd1474}" ordinalvalue="20004">
+                      <labels>
+                        <label description="売上高" languagecode="1041" solutionaction="Modified" />
+                      </labels>
+                    </cell>
+                  </row>
+                </rows>
+              </header>
+            </form>
+            <LocalizedNames>
+              <LocalizedName description="情報" languagecode="1041" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="このエンティティ用のフォームです。" languagecode="1041" />
+            </Descriptions>
+          </systemform>
+        </forms>
+      </FormXml>
+      <SavedQueries>
+        <savedqueries>
+          <savedquery>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>0</isdefault>
+            <savedqueryid>{65ffaf9a-e8c5-432d-860b-32f841b00d87}</savedqueryid>
+            <queryapi></queryapi>
+            <layoutxml>
+              <grid name="resultset" jump="name" select="1" icon="1" preview="1">
+                <row name="result" id="accountid">
+                  <cell name="name" width="300" />
+                  <cell name="telephone1" width="100" />
+                  <cell name="fax" width="100" />
+                  <cell name="address1_city" width="100" />
+                  <cell name="primarycontactid" width="150" />
+                  <cell name="accountprimarycontactidcontactcontactid.emailaddress1" width="150" disableSorting="1" />
+                  <cell name="statecode" width="100" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>0</querytype>
+            <fetchxml>
+              <fetch version="1.0" output-format="xml-platform" mapping="logical">
+                <entity name="account">
+                  <attribute name="name" />
+                  <attribute name="telephone1" />
+                  <attribute name="address1_city" />
+                  <attribute name="primarycontactid" />
+                  <link-entity alias="accountprimarycontactidcontactcontactid" name="contact" from="contactid" to="primarycontactid" link-type="outer" visible="false">
+                    <attribute name="emailaddress1" />
+                  </link-entity>
+                  <attribute name="statecode" />
+                  <attribute name="accountid" />
+                  <attribute name="fax" />
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>9.0.0.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="すべての取引先企業" languagecode="1041" />
+            </LocalizedNames>
+          </savedquery>
+        </savedqueries>
+      </SavedQueries>
+      <RibbonDiffXml>
+        <CustomActions />
+        <Templates>
+          <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+        </Templates>
+        <CommandDefinitions />
+        <RuleDefinitions>
+          <TabDisplayRules />
+          <DisplayRules />
+          <EnableRules />
+        </RuleDefinitions>
+        <LocLabels />
+      </RibbonDiffXml>
+    </Entity>
+    <Entity>
+      <Name LocalizedName="取引先担当者 " OriginalName="">Contact</Name>
+      <EntityInfo>
+        <entity Name="Contact" unmodified="1">
+          <attributes />
+        </entity>
+      </EntityInfo>
+      <FormXml>
+        <forms type="main">
+          <systemform>
+            <formid>{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}</formid>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <FormPresentation>0</FormPresentation>
+            <FormActivationState>0</FormActivationState>
+            <form showImage="true">
+              <tabs>
+                <tab name="general" verticallayout="true" id="{9748ec98-3746-40cc-83bf-d15c7363166f}" IsUserDefined="0" ordinalvalue="1" solutionaction="Modified">
+                  <columns>
+                    <column width="100%" id="0">
+                      <sections>
+                        <section name="name" showlabel="false" showbar="false" id="{90b0776f-2977-4695-9cd4-73bb6c820f88}" IsUserDefined="0" ordinalvalue="0">
+                          <rows>
+                            <row>
+                              <cell id="{4fde05d9-89b1-4acf-a98f-13159f1bdcc8}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="姓" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{478c8803-2686-4d10-8cf0-e6e5b3b6007f}" ordinalvalue="20001">
+                                <labels>
+                                  <label description="名" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section showlabel="false" showbar="false" locklevel="0" id="{941cb6f9-9310-4bb8-8216-095fd4ac452a}" IsUserDefined="0" layout="varwidth" columns="11" name="section2" ordinalvalue="1">
+                          <rows>
+                            <row>
+                              <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{d9372327-2e2b-4150-bbda-40cb5609cb67}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="フリガナ (姓)" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{7b929b6c-4896-4bab-9237-88264594a45f}" ordinalvalue="20001">
+                                <labels>
+                                  <label description="フリガナ (名)" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section showlabel="false" showbar="false" locklevel="0" id="{9248179b-2d1b-41f8-8259-6ee7778759a8}" IsUserDefined="0" layout="varwidth" columns="11" name="section4" ordinalvalue="2">
+                          <rows>
+                            <row>
+                              <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{1afed90e-5ba2-4868-b33f-e4ffe086596b}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="会社名" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{f3eec8ff-7b5a-43af-92c4-1a41adaf4b50}" ordinalvalue="20001">
+                                <labels>
+                                  <label description="勤務先電話番号" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{c21cf98d-7d3a-4e4c-815c-5fd6de4b89d7}" ordinalvalue="10002">
+                                <labels>
+                                  <label description="部署" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{0304f83d-bb05-4e72-bf12-c9bfa8a8e152}" ordinalvalue="20003">
+                                <labels>
+                                  <label description="自宅電話" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{921eaba2-6044-405e-8354-c3c5dbe3e97f}" ordinalvalue="10004">
+                                <labels>
+                                  <label description="役職" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{70d9cd8f-142b-4a88-bf82-4d2bc2972140}" ordinalvalue="20005">
+                                <labels>
+                                  <label description="携帯電話" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{38d7b950-436b-412f-a71b-ae4187e60c14}" ordinalvalue="10006">
+                                <labels>
+                                  <label description="電子メール" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{068c2954-dfdf-4d68-a9da-f70e3feb3e63}" ordinalvalue="20007">
+                                <labels>
+                                  <label description="FAX" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{d9a0c6e4-2016-48cd-b0c1-a6a03e9d47c6}" ordinalvalue="10008">
+                                <labels>
+                                  <label description="通貨型" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{93b7e0c8-67ad-4a2c-9b34-c29594c27845}" ordinalvalue="20009">
+                                <labels>
+                                  <label description="ポケットベル" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+                <tab name="details" id="{cafbf41a-42bf-4665-8562-1e37017eba69}" IsUserDefined="0" ordinalvalue="2" solutionaction="Modified">
+                  <columns>
+                    <column width="100%" id="0">
+                      <sections>
+                        <section name="professional information" showlabel="true" showbar="true" id="{a778d498-3bf2-4c33-85e2-7730d8ae126b}" IsUserDefined="0" ordinalvalue="0">
+                          <rows>
+                            <row>
+                              <cell id="{c545928a-8081-4b80-a21e-8a3c405dd0b0}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="ロール" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{80128d81-f664-47c0-b348-d176679224b9}" ordinalvalue="20001">
+                                <labels>
+                                  <label description="秘書" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{452ca48e-8c7b-4a96-81f7-387d0c9b033c}" ordinalvalue="10002">
+                                <labels>
+                                  <label description="上司" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{cb2ae5b6-2919-439e-ab41-327d880272a8}" ordinalvalue="20003">
+                                <labels>
+                                  <label description="秘書の電話" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{d336a999-cdf1-4109-bcbe-db27ec0b7e72}" ordinalvalue="10004">
+                                <labels>
+                                  <label description="上司の電話" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="personal information" showlabel="true" showbar="true" id="{518cc50e-1350-4b4b-a056-fc3c0e7d36d7}" IsUserDefined="0" ordinalvalue="1">
+                          <rows>
+                            <row>
+                              <cell id="{9748b178-14ab-49af-8985-c02de8892720}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="性別" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{b2adc634-723e-4e87-b8f1-b62e3cf1fad1}" ordinalvalue="20001">
+                                <labels>
+                                  <label description="生年月日" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{acac3dbc-a956-459f-9dba-8c3f5ce3777a}" ordinalvalue="10002">
+                                <labels>
+                                  <label description="婚姻区分" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{4435fdd5-a586-436e-882c-58b516484ae1}" ordinalvalue="20003">
+                                <labels>
+                                  <label description="記念日" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{4bd24018-9343-41e8-b119-66c87186ef1c}" ordinalvalue="10004">
+                                <labels>
+                                  <label description="配偶者またはパートナーの名前" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="description" showlabel="true" showbar="true" id="{e165b345-b7ce-4c73-a508-0f42cbf6dd53}" IsUserDefined="0" height="auto" ordinalvalue="2">
+                          <rows>
+                            <row>
+                              <cell colspan="2" showlabel="false" rowspan="5" auto="true" id="{c0a08372-d225-411f-87e4-14554329507a}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="説明" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+                <tab name="administration" id="{0dd7233e-247b-4eef-a71b-0185da6d16ad}" IsUserDefined="0" ordinalvalue="3" solutionaction="Modified">
+                  <columns>
+                    <column width="100%" id="0">
+                      <sections>
+                        <section name="internal information" showlabel="false" showbar="false" id="{c3e86ffb-2b8b-4c56-877f-67bdaa5a7363}" IsUserDefined="0" ordinalvalue="0">
+                          <rows>
+                            <row>
+                              <cell id="{2329843a-6ab4-4431-8a2b-101f3272e104}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="所有者" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="billing information" showlabel="true" showbar="true" id="{0738bc1c-9226-486d-9258-9b6fc75cbaa7}" IsUserDefined="0" ordinalvalue="1">
+                          <rows>
+                            <row>
+                              <cell id="{d9a0c6e4-2016-48cd-b0c1-a6a03e9d47c6}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="通貨型" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                              <cell id="{cf9708ff-df37-4fda-86c3-79896dbeaa2c}" ordinalvalue="20001">
+                                <labels>
+                                  <label description="支払条件" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{200a7ca9-4a7e-4462-8f22-9a13ce27bd46}" ordinalvalue="10002">
+                                <labels>
+                                  <label description="利用限度額" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{86ed48db-8fdc-4880-aa78-1532af6060ee}" ordinalvalue="10003">
+                                <labels>
+                                  <label description="クレジットの留保" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+                <tab name="notes and activities" id="{A6C643C6-E98F-4738-812F-0B7F7FFC80F7}" IsUserDefined="0" expanded="false" ordinalvalue="4" solutionaction="Modified" />
+                <tab name="tab_recordwall" id="{e94e6ac4-12db-bc8c-ec81-8b20c5987655}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{7f5deda6-533e-4906-ac5c-5b1554d7397b}" ordinalvalue="0" solutionaction="Added">
+                  <labels>
+                    <label description="最新情報" languagecode="1041" />
+                  </labels>
+                  <columns>
+                    <column width="100%" id="0">
+                      <sections>
+                        <section name="tab_recordwall_section_1" showlabel="false" showbar="false" locklevel="0" id="{ac0addcc-a626-6c98-40ee-b11edac36204}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{1286ab13-3c29-4b52-aac6-9313b5d632b2}" ordinalvalue="0">
+                          <labels>
+                            <label description="" languagecode="1041" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{be13b312-b6ac-83d7-34e1-e90dc1ecbec7}" showlabel="false" colspan="1" auto="false" rowspan="15" labelid="{2d26f7e3-8b64-4c40-a767-ddeacc6c062e}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="" languagecode="1041" />
+                                </labels>
+                                <control id="WebResource_RecordWall" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                                  <parameters>
+                                    <Url>msdyn_/RecordWall.htm</Url>
+                                    <PassParameters>true</PassParameters>
+                                    <Security>false</Security>
+                                    <Scrolling>auto</Scrolling>
+                                    <Border>false</Border>
+                                  </parameters>
+                                </control>
+                                <events>
+                                  <event name="onload" application="0">
+                                    <dependencies />
+                                  </event>
+                                </events>
+                              </cell>
+                            </row>
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                  <events>
+                    <event name="tabstatechange" application="false" active="false">
+                      <Handlers>
+                        <Handler functionName="ActivityFeeds.Form.CustomizationUtils.updateRecordWallRenderingState" libraryName="msdyn_/ActivityFeeds.Form.js" handlerUniqueId="{9beb6ce6-2666-8033-a406-3d68d44b9592}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="0" />
+                      </Handlers>
+                    </event>
+                  </events>
+                </tab>
+              </tabs>
+              <formLibraries solutionaction="Added">
+                <Library name="msdyn_/ActivityFeeds.Form.js" libraryUniqueId="{4181da4c-6d13-ba3c-c859-be404e4ee2e3}" />
+              </formLibraries>
+            </form>
+            <LocalizedNames>
+              <LocalizedName description="情報" languagecode="1041" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="このエンティティ用のフォームです。" languagecode="1041" />
+            </Descriptions>
+          </systemform>
+          <systemform>
+            <formid>{c1c97961-2d42-4103-abf8-2fe2bdf38224}</formid>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <FormPresentation>0</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form shownavigationbar="true" showImage="false" maxWidth="1900" headerdensity="HighWithControls">
+              <tabs>
+                <tab name="general" verticallayout="true" id="{e3327218-e08e-4133-beb6-5177bc816581}" IsUserDefined="0" labelid="{b2ef0773-20d1-4dbd-8f0b-b2e66ad15120}" ordinalvalue="1" solutionaction="Modified" />
+                <tab name="details" id="{56663b16-da7e-4dc6-8021-52cefe2a84ba}" IsUserDefined="0" labelid="{c7513c3a-49cc-4b14-b48c-0496f2a6b5c0}" ordinalvalue="2" solutionaction="Modified" />
+                <tab name="web authentication" id="{910c27ed-4278-44ed-ba23-b85b7c864d27}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" ordinalvalue="3" solutionaction="Modified" />
+                <tab name="notes and activities" id="{88a42bcc-d1eb-46d4-b50a-cbc1bec50e5b}" IsUserDefined="0" expanded="false" labelid="{4d4db10d-153f-4edf-ac41-7b1203c340d5}" ordinalvalue="4" solutionaction="Modified" />
+                <tab name="administration" id="{8d04d3b7-9cd3-4d4f-8ec2-1c098e289da8}" IsUserDefined="0" labelid="{213d4acc-9bad-499f-a0ff-987f3c3fcd2b}" ordinalvalue="5" solutionaction="Modified" />
+                <tab name="tab_recordwall" id="{e94e6ac4-12db-bc8c-ec81-8b20c5987655}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{ad6fa019-e7a3-43d5-b720-207ddce0dfad}" ordinalvalue="0" solutionaction="Added">
+                  <labels>
+                    <label description="最新情報" languagecode="1041" />
+                  </labels>
+                  <columns>
+                    <column width="100%" id="0">
+                      <sections>
+                        <section name="tab_recordwall_section_1" showlabel="false" showbar="false" locklevel="0" id="{ac0addcc-a626-6c98-40ee-b11edac36204}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{30f49df6-8185-4767-be89-13457c5cb949}" ordinalvalue="0">
+                          <labels>
+                            <label description="" languagecode="1041" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{be13b312-b6ac-83d7-34e1-e90dc1ecbec7}" showlabel="false" colspan="1" auto="false" rowspan="15" labelid="{4beec33a-6df8-44f0-ac9c-9e4d8e3488ad}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="" languagecode="1041" />
+                                </labels>
+                                <control id="WebResource_RecordWall" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                                  <parameters>
+                                    <Url>msdyn_/RecordWall.htm</Url>
+                                    <PassParameters>true</PassParameters>
+                                    <Security>false</Security>
+                                    <Scrolling>auto</Scrolling>
+                                    <Border>false</Border>
+                                  </parameters>
+                                </control>
+                                <events>
+                                  <event name="onload" application="0">
+                                    <dependencies />
+                                  </event>
+                                </events>
+                              </cell>
+                            </row>
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                  <events>
+                    <event name="tabstatechange" application="false" active="false">
+                      <Handlers>
+                        <Handler functionName="ActivityFeeds.Form.CustomizationUtils.updateRecordWallRenderingState" libraryName="msdyn_/ActivityFeeds.Form.js" handlerUniqueId="{9beb6ce6-2666-8033-a406-3d68d44b9592}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="0" />
+                      </Handlers>
+                    </event>
+                  </events>
+                </tab>
+              </tabs>
+              <formLibraries>
+                <Library name="msdyn_/ActivityFeeds.Form.js" libraryUniqueId="{4181da4c-6d13-ba3c-c859-be404e4ee2e3}" solutionaction="Added" />
+              </formLibraries>
+            </form>
+            <LocalizedNames>
+              <LocalizedName description="Portal Contact (Enhanced)" languagecode="1041" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="このエンティティ用のフォーム。" languagecode="1041" />
+            </Descriptions>
+          </systemform>
+          <systemform>
+            <formid>{bddc0100-0dbe-4562-aafe-31d08c8ab506}</formid>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <FormPresentation>0</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form shownavigationbar="true" headerdensity="HighWithControls">
+              <tabs>
+                <tab verticallayout="true" id="{4e685d18-f4e0-4a73-a113-04f2e36439e0}" IsUserDefined="0" labelid="{a2f03898-14ad-4d93-b9cd-f7d37d5fdcea}" ordinalvalue="1" solutionaction="Modified">
+                  <columns>
+                    <column width="100%" id="0">
+                      <sections>
+                        <section showlabel="false" showbar="false" id="{7192bd67-ae8a-4119-9943-726e9c0e8c34}" IsUserDefined="0" labelid="{adc5d95d-0c2a-4df9-bf61-71fd86efb383}" ordinalvalue="0">
+                          <rows>
+                            <row>
+                              <cell id="{6bb33121-88c0-43db-bc2a-ec1e3caac2cf}" locklevel="0" colspan="2" rowspan="1" ordinalvalue="10009">
+                                <labels>
+                                  <label description="優先する言語" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+                <tab name="tab_recordwall" id="{e94e6ac4-12db-bc8c-ec81-8b20c5987655}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{b0dcd938-c8ea-4612-806e-45eba3f02f93}" ordinalvalue="0" solutionaction="Added">
+                  <labels>
+                    <label description="最新情報" languagecode="1041" />
+                  </labels>
+                  <columns>
+                    <column width="100%" id="0">
+                      <sections>
+                        <section name="tab_recordwall_section_1" showlabel="false" showbar="false" locklevel="0" id="{ac0addcc-a626-6c98-40ee-b11edac36204}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{eb78c2ce-057e-4bac-a7cb-539fc3c6a06f}" ordinalvalue="0">
+                          <labels>
+                            <label description="" languagecode="1041" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{be13b312-b6ac-83d7-34e1-e90dc1ecbec7}" showlabel="false" colspan="1" auto="false" rowspan="15" labelid="{c31434ac-eb88-45c4-87f6-f4aaa56f2505}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="" languagecode="1041" />
+                                </labels>
+                                <control id="WebResource_RecordWall" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                                  <parameters>
+                                    <Url>msdyn_/RecordWall.htm</Url>
+                                    <PassParameters>true</PassParameters>
+                                    <Security>false</Security>
+                                    <Scrolling>auto</Scrolling>
+                                    <Border>false</Border>
+                                  </parameters>
+                                </control>
+                                <events>
+                                  <event name="onload" application="0">
+                                    <dependencies />
+                                  </event>
+                                </events>
+                              </cell>
+                            </row>
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                  <events>
+                    <event name="tabstatechange" application="false" active="false">
+                      <Handlers>
+                        <Handler functionName="ActivityFeeds.Form.CustomizationUtils.updateRecordWallRenderingState" libraryName="msdyn_/ActivityFeeds.Form.js" handlerUniqueId="{9beb6ce6-2666-8033-a406-3d68d44b9592}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="0" />
+                      </Handlers>
+                    </event>
+                  </events>
+                </tab>
+              </tabs>
+              <formLibraries solutionaction="Added">
+                <Library name="msdyn_/ActivityFeeds.Form.js" libraryUniqueId="{4181da4c-6d13-ba3c-c859-be404e4ee2e3}" />
+              </formLibraries>
+            </form>
+            <LocalizedNames>
+              <LocalizedName description="Profile Web Form (Enhanced)" languagecode="1041" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="このフォームはポータルでユーザーが取引先担当者の情報を更新するために使用されます" languagecode="1041" />
+            </Descriptions>
+          </systemform>
+          <systemform>
+            <formid>{d6190b35-9474-4098-9698-33f6627eb3bf}</formid>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <FormPresentation>0</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form shownavigationbar="true">
+              <tabs>
+                <tab verticallayout="true" id="{9748ec98-3746-40cc-83bf-d15c7363166f}" IsUserDefined="0" labelid="{c5d2e290-d6b4-43a6-a686-4d3d64a4fa4c}" ordinalvalue="1" solutionaction="Modified" />
+                <tab name="tab_recordwall" id="{e94e6ac4-12db-bc8c-ec81-8b20c5987655}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{9d98024d-688b-4b39-9266-5b57c118cc72}" ordinalvalue="0" solutionaction="Added">
+                  <labels>
+                    <label description="最新情報" languagecode="1041" />
+                  </labels>
+                  <columns>
+                    <column width="100%" id="0">
+                      <sections>
+                        <section name="tab_recordwall_section_1" showlabel="false" showbar="false" locklevel="0" id="{ac0addcc-a626-6c98-40ee-b11edac36204}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{d094fcc8-6361-4df7-8257-0cfaa79d151e}" ordinalvalue="0">
+                          <labels>
+                            <label description="" languagecode="1041" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{be13b312-b6ac-83d7-34e1-e90dc1ecbec7}" showlabel="false" colspan="1" auto="false" rowspan="15" labelid="{10b5c242-c804-459f-a815-c0f83c64d56f}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="" languagecode="1041" />
+                                </labels>
+                                <control id="WebResource_RecordWall" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                                  <parameters>
+                                    <Url>msdyn_/RecordWall.htm</Url>
+                                    <PassParameters>true</PassParameters>
+                                    <Security>false</Security>
+                                    <Scrolling>auto</Scrolling>
+                                    <Border>false</Border>
+                                  </parameters>
+                                </control>
+                                <events>
+                                  <event name="onload" application="0">
+                                    <dependencies />
+                                  </event>
+                                </events>
+                              </cell>
+                            </row>
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                  <events>
+                    <event name="tabstatechange" application="false" active="false">
+                      <Handlers>
+                        <Handler functionName="ActivityFeeds.Form.CustomizationUtils.updateRecordWallRenderingState" libraryName="msdyn_/ActivityFeeds.Form.js" handlerUniqueId="{9beb6ce6-2666-8033-a406-3d68d44b9592}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="0" />
+                      </Handlers>
+                    </event>
+                  </events>
+                </tab>
+              </tabs>
+              <formLibraries solutionaction="Added">
+                <Library name="msdyn_/ActivityFeeds.Form.js" libraryUniqueId="{4181da4c-6d13-ba3c-c859-be404e4ee2e3}" />
+              </formLibraries>
+            </form>
+            <LocalizedNames>
+              <LocalizedName description="Invite Web Form" languagecode="1041" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="このフォームはポータルで他のユーザーをポータルに招待するために使用されます" languagecode="1041" />
+            </Descriptions>
+          </systemform>
+          <systemform>
+            <formid>{01124dd8-9bff-4cc0-bb33-ea9d943c3f9f}</formid>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <FormPresentation>0</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form shownavigationbar="true" headerdensity="HighWithControls">
+              <tabs>
+                <tab verticallayout="true" id="{bacbbb62-0ea7-4513-a3a2-1f1d7e4f2aeb}" IsUserDefined="0" labelid="{e07ea042-c752-488d-b2c2-aef74beb55c2}" ordinalvalue="1" solutionaction="Modified">
+                  <columns>
+                    <column width="100%" id="0">
+                      <sections>
+                        <section showlabel="false" showbar="false" id="{8d0e07c4-8cf7-4a96-843d-8441fcb4ab71}" IsUserDefined="0" labelid="{ffe940cc-8e76-47d9-b2f9-2dc7325e534a}" ordinalvalue="0">
+                          <rows>
+                            <row>
+                              <cell id="{c95289cb-6a08-4beb-aa5b-1177ef90ad59}" locklevel="0" colspan="2" rowspan="1" ordinalvalue="10011">
+                                <labels>
+                                  <label description="優先する言語" languagecode="1041" solutionaction="Modified" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+                <tab name="tab_recordwall" id="{e94e6ac4-12db-bc8c-ec81-8b20c5987655}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" labelid="{7a9ad4db-fe87-48b7-8170-f9d9b4de0a2b}" ordinalvalue="0" solutionaction="Added">
+                  <labels>
+                    <label description="最新情報" languagecode="1041" />
+                  </labels>
+                  <columns>
+                    <column width="100%" id="0">
+                      <sections>
+                        <section name="tab_recordwall_section_1" showlabel="false" showbar="false" locklevel="0" id="{ac0addcc-a626-6c98-40ee-b11edac36204}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{b41eb0fe-a508-4348-a497-0b0c03c72cd8}" ordinalvalue="0">
+                          <labels>
+                            <label description="" languagecode="1041" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{be13b312-b6ac-83d7-34e1-e90dc1ecbec7}" showlabel="false" colspan="1" auto="false" rowspan="15" labelid="{2d8296cc-abc3-41f8-8e26-fddc2b03eaa8}" ordinalvalue="10000">
+                                <labels>
+                                  <label description="" languagecode="1041" />
+                                </labels>
+                                <control id="WebResource_RecordWall" classid="{9FDF5F91-88B1-47f4-AD53-C11EFC01A01D}">
+                                  <parameters>
+                                    <Url>msdyn_/RecordWall.htm</Url>
+                                    <PassParameters>true</PassParameters>
+                                    <Security>false</Security>
+                                    <Scrolling>auto</Scrolling>
+                                    <Border>false</Border>
+                                  </parameters>
+                                </control>
+                                <events>
+                                  <event name="onload" application="0">
+                                    <dependencies />
+                                  </event>
+                                </events>
+                              </cell>
+                            </row>
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                            <row />
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                  <events>
+                    <event name="tabstatechange" application="false" active="false">
+                      <Handlers>
+                        <Handler functionName="ActivityFeeds.Form.CustomizationUtils.updateRecordWallRenderingState" libraryName="msdyn_/ActivityFeeds.Form.js" handlerUniqueId="{9beb6ce6-2666-8033-a406-3d68d44b9592}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="0" />
+                      </Handlers>
+                    </event>
+                  </events>
+                </tab>
+              </tabs>
+              <formLibraries solutionaction="Added">
+                <Library name="msdyn_/ActivityFeeds.Form.js" libraryUniqueId="{4181da4c-6d13-ba3c-c859-be404e4ee2e3}" />
+              </formLibraries>
+            </form>
+            <LocalizedNames>
+              <LocalizedName description="Profile Web Form (Enhanced) - Japanese" languagecode="1041" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="このフォームは、日本語にローカライズされたポータルでユーザーが取引先担当者の情報を更新するために使用されます" languagecode="1041" />
+            </Descriptions>
+          </systemform>
+        </forms>
+      </FormXml>
+      <RibbonDiffXml>
+        <CustomActions />
+        <Templates>
+          <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+        </Templates>
+        <CommandDefinitions />
+        <RuleDefinitions>
+          <TabDisplayRules />
+          <DisplayRules />
+          <EnableRules />
+        </RuleDefinitions>
+        <LocLabels />
+      </RibbonDiffXml>
+    </Entity>
+    <Entity>
+      <Name LocalizedName="テストテーブル" OriginalName="テストテーブル">new_testtable</Name>
+      <EntityInfo>
+        <entity Name="new_testtable">
+          <LocalizedNames>
+            <LocalizedName description="テストテーブル" languagecode="1033" />
+            <LocalizedName description="テストテーブル" languagecode="1041" />
+          </LocalizedNames>
+          <LocalizedCollectionNames>
+            <LocalizedCollectionName description="テストテーブル" languagecode="1033" />
+            <LocalizedCollectionName description="テストテーブル" languagecode="1041" />
+          </LocalizedCollectionNames>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+            <Description description="" languagecode="1041" />
+          </Descriptions>
+          <attributes>
+            <attribute PhysicalName="CreatedBy">
+              <Type>lookup</Type>
+              <Name>createdby</Name>
+              <LogicalName>createdby</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="作成者" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="レコードを作成したユーザーを表す一意識別子。" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="CreatedOn">
+              <Type>datetime</Type>
+              <Name>createdon</Name>
+              <LogicalName>createdon</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>inactive</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>datetime</Format>
+              <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
+              <Behavior>1</Behavior>
+              <displaynames>
+                <displayname description="作成日" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="レコードを作成した日時。" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="CreatedOnBehalfBy">
+              <Type>lookup</Type>
+              <Name>createdonbehalfby</Name>
+              <LogicalName>createdonbehalfby</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="作成者 (代理)" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="レコードを作成した代理ユーザーを表す一意識別子。" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="ImportSequenceNumber">
+              <Type>int</Type>
+              <Name>importsequencenumber</Name>
+              <LogicalName>importsequencenumber</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind</DisplayMask>
+              <ImeMode>disabled</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format></Format>
+              <MinValue>-2147483648</MinValue>
+              <MaxValue>2147483647</MaxValue>
+              <displaynames>
+                <displayname description="インポート シーケンス番号" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="このレコードを作成したインポートのシーケンス番号です。" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="ModifiedBy">
+              <Type>lookup</Type>
+              <Name>modifiedby</Name>
+              <LogicalName>modifiedby</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="修正者" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="レコードを修正したユーザーを表す一意識別子。" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="ModifiedOn">
+              <Type>datetime</Type>
+              <Name>modifiedon</Name>
+              <LogicalName>modifiedon</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>inactive</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>datetime</Format>
+              <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
+              <Behavior>1</Behavior>
+              <displaynames>
+                <displayname description="修正日" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="レコードを変更した日時。" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="ModifiedOnBehalfBy">
+              <Type>lookup</Type>
+              <Name>modifiedonbehalfby</Name>
+              <LogicalName>modifiedonbehalfby</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="修正者 (代理)" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="レコードを修正した代理ユーザーを表す一意識別子。" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="new_Name">
+              <Type>nvarchar</Type>
+              <Name>new_name</Name>
+              <LogicalName>new_name</LogicalName>
+              <RequiredLevel>required</RequiredLevel>
+              <DisplayMask>PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>1</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>1</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>text</Format>
+              <MaxLength>100</MaxLength>
+              <Length>200</Length>
+              <displaynames>
+                <displayname description="Name" languagecode="1033" />
+                <displayname description="Name" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="" languagecode="1033" />
+                <Description description="" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="new_testtableId">
+              <Type>primarykey</Type>
+              <Name>new_testtableid</Name>
+              <LogicalName>new_testtableid</LogicalName>
+              <RequiredLevel>systemrequired</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|RequiredForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>0</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>1</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <displaynames>
+                <displayname description="テストテーブル" languagecode="1033" />
+                <displayname description="テストテーブル" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="エンティティのインスタンスを表す一意識別子" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OverriddenCreatedOn">
+              <Type>datetime</Type>
+              <Name>overriddencreatedon</Name>
+              <LogicalName>overriddencreatedon</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForGrid</DisplayMask>
+              <ImeMode>inactive</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format>date</Format>
+              <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
+              <Behavior>1</Behavior>
+              <displaynames>
+                <displayname description="レコード作成日" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="レコードが移行された日時です。" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OwnerId">
+              <Type>owner</Type>
+              <Name>ownerid</Name>
+              <LogicalName>ownerid</LogicalName>
+              <RequiredLevel>systemrequired</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes>
+                <LookupType id="00000000-0000-0000-0000-000000000000">8</LookupType>
+                <LookupType id="00000000-0000-0000-0000-000000000000">9</LookupType>
+              </LookupTypes>
+              <displaynames>
+                <displayname description="所有者" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="所有者 ID" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OwningBusinessUnit">
+              <Type>lookup</Type>
+              <Name>owningbusinessunit</Name>
+              <LogicalName>owningbusinessunit</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="所属部署" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="レコードを所有する部署を表す一意識別子" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OwningTeam">
+              <Type>lookup</Type>
+              <Name>owningteam</Name>
+              <LogicalName>owningteam</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsLogical>1</IsLogical>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="所有チーム" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="レコードを所有するチームを表す一意識別子です。" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="OwningUser">
+              <Type>lookup</Type>
+              <Name>owninguser</Name>
+              <LogicalName>owninguser</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>0</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsLogical>1</IsLogical>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <LookupStyle>single</LookupStyle>
+              <LookupTypes />
+              <displaynames>
+                <displayname description="所有ユーザー" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="レコードを所有するユーザーを表す一意識別子です。" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="statecode">
+              <Type>state</Type>
+              <Name>statecode</Name>
+              <LogicalName>statecode</LogicalName>
+              <RequiredLevel>systemrequired</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>0</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>1</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <optionset Name="new_testtable_statecode">
+                <OptionSetType>state</OptionSetType>
+                <IntroducedVersion>1.0</IntroducedVersion>
+                <IsCustomizable>1</IsCustomizable>
+                <displaynames>
+                  <displayname description="状態" languagecode="1041" />
+                </displaynames>
+                <Descriptions>
+                  <Description description="テストテーブルの状態" languagecode="1041" />
+                </Descriptions>
+                <states>
+                  <state value="0" defaultstatus="1" invariantname="Active">
+                    <labels>
+                      <label description="アクティブ" languagecode="1041" />
+                    </labels>
+                  </state>
+                  <state value="1" defaultstatus="2" invariantname="Inactive">
+                    <labels>
+                      <label description="非アクティブ" languagecode="1041" />
+                    </labels>
+                  </state>
+                </states>
+              </optionset>
+              <displaynames>
+                <displayname description="状態" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="テストテーブルの状態" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="statuscode">
+              <Type>status</Type>
+              <Name>statuscode</Name>
+              <LogicalName>statuscode</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>1</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <optionset Name="new_testtable_statuscode">
+                <OptionSetType>status</OptionSetType>
+                <IntroducedVersion>1.0</IntroducedVersion>
+                <IsCustomizable>1</IsCustomizable>
+                <displaynames>
+                  <displayname description="ステータス" languagecode="1041" />
+                </displaynames>
+                <Descriptions>
+                  <Description description="テストテーブルの状態の理由" languagecode="1041" />
+                </Descriptions>
+                <statuses>
+                  <status value="1" state="0">
+                    <labels>
+                      <label description="アクティブ" languagecode="1041" />
+                    </labels>
+                  </status>
+                  <status value="2" state="1">
+                    <labels>
+                      <label description="非アクティブ" languagecode="1041" />
+                    </labels>
+                  </status>
+                </statuses>
+              </optionset>
+              <displaynames>
+                <displayname description="ステータス" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="テストテーブルの状態の理由" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="TimeZoneRuleVersionNumber">
+              <Type>int</Type>
+              <Name>timezoneruleversionnumber</Name>
+              <LogicalName>timezoneruleversionnumber</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format></Format>
+              <MinValue>-1</MinValue>
+              <MaxValue>2147483647</MaxValue>
+              <displaynames>
+                <displayname description="タイム ゾーン規則のバージョン番号" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="内部のみで使用します。" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+            <attribute PhysicalName="UTCConversionTimeZoneCode">
+              <Type>int</Type>
+              <Name>utcconversiontimezonecode</Name>
+              <LogicalName>utcconversiontimezonecode</LogicalName>
+              <RequiredLevel>none</RequiredLevel>
+              <ImeMode>auto</ImeMode>
+              <ValidForUpdateApi>1</ValidForUpdateApi>
+              <ValidForReadApi>1</ValidForReadApi>
+              <ValidForCreateApi>1</ValidForCreateApi>
+              <IsCustomField>0</IsCustomField>
+              <IsAuditEnabled>0</IsAuditEnabled>
+              <IsSecured>0</IsSecured>
+              <IntroducedVersion>1.0</IntroducedVersion>
+              <IsCustomizable>1</IsCustomizable>
+              <IsRenameable>1</IsRenameable>
+              <CanModifySearchSettings>1</CanModifySearchSettings>
+              <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+              <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+              <SourceType>0</SourceType>
+              <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+              <IsSortableEnabled>0</IsSortableEnabled>
+              <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+              <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+              <IsDataSourceSecret>0</IsDataSourceSecret>
+              <AutoNumberFormat></AutoNumberFormat>
+              <IsSearchable>0</IsSearchable>
+              <IsFilterable>0</IsFilterable>
+              <IsRetrievable>0</IsRetrievable>
+              <IsLocalizable>0</IsLocalizable>
+              <Format></Format>
+              <MinValue>-1</MinValue>
+              <MaxValue>2147483647</MaxValue>
+              <displaynames>
+                <displayname description="UTC 変換タイム ゾーン コード" languagecode="1041" />
+              </displaynames>
+              <Descriptions>
+                <Description description="レコードが作成されたときに使用中だったタイム ゾーン コードです。" languagecode="1041" />
+              </Descriptions>
+            </attribute>
+          </attributes>
+          <EntitySetName>new_testtables</EntitySetName>
+          <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
+          <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
+          <IsRequiredOffline>0</IsRequiredOffline>
+          <IsInteractionCentricEnabled>0</IsInteractionCentricEnabled>
+          <IsCollaboration>0</IsCollaboration>
+          <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+          <IsConnectionsEnabled>0</IsConnectionsEnabled>
+          <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+          <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
+          <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
+          <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+          <IsSLAEnabled>0</IsSLAEnabled>
+          <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+          <IsBPFEntity>0</IsBPFEntity>
+          <OwnershipTypeMask>UserOwned</OwnershipTypeMask>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
+          <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
+          <IsActivity>0</IsActivity>
+          <ActivityTypeMask></ActivityTypeMask>
+          <IsActivityParty>0</IsActivityParty>
+          <IsReplicated>0</IsReplicated>
+          <IsReplicationUserFiltered>0</IsReplicationUserFiltered>
+          <IsMailMergeEnabled>1</IsMailMergeEnabled>
+          <IsVisibleInMobile>0</IsVisibleInMobile>
+          <IsVisibleInMobileClient>0</IsVisibleInMobileClient>
+          <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
+          <IsOfflineInMobileClient>0</IsOfflineInMobileClient>
+          <DaysSinceRecordLastModified>0</DaysSinceRecordLastModified>
+          <MobileOfflineFilters></MobileOfflineFilters>
+          <IsMapiGridEnabled>1</IsMapiGridEnabled>
+          <IsReadingPaneEnabled>1</IsReadingPaneEnabled>
+          <IsQuickCreateEnabled>0</IsQuickCreateEnabled>
+          <SyncToExternalSearchIndex>0</SyncToExternalSearchIndex>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <IsMappable>1</IsMappable>
+          <CanModifyAuditSettings>1</CanModifyAuditSettings>
+          <CanModifyMobileVisibility>1</CanModifyMobileVisibility>
+          <CanModifyMobileClientVisibility>1</CanModifyMobileClientVisibility>
+          <CanModifyMobileClientReadOnly>1</CanModifyMobileClientReadOnly>
+          <CanModifyMobileClientOffline>1</CanModifyMobileClientOffline>
+          <CanModifyConnectionSettings>1</CanModifyConnectionSettings>
+          <CanModifyDuplicateDetectionSettings>1</CanModifyDuplicateDetectionSettings>
+          <CanModifyMailMergeSettings>1</CanModifyMailMergeSettings>
+          <CanModifyQueueSettings>1</CanModifyQueueSettings>
+          <CanCreateAttributes>1</CanCreateAttributes>
+          <CanCreateForms>1</CanCreateForms>
+          <CanCreateCharts>1</CanCreateCharts>
+          <CanCreateViews>1</CanCreateViews>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <CanEnableSyncToExternalSearchIndex>1</CanEnableSyncToExternalSearchIndex>
+          <EnforceStateTransitions>0</EnforceStateTransitions>
+          <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>
+          <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+          <ChangeTrackingEnabled>0</ChangeTrackingEnabled>
+          <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
+          <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+          <IsMSTeamsIntegrationEnabled>0</IsMSTeamsIntegrationEnabled>
+          <IsSolutionAware>0</IsSolutionAware>
+        </entity>
+      </EntityInfo>
+      <FormXml>
+        <forms type="card">
+          <systemform>
+            <formid>{e8ce65ed-6958-4276-8e5c-ba3aa6ae6f5c}</formid>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form>
+              <tabs>
+                <tab name="general" verticallayout="true" id="{a956969c-1427-4403-9f73-a7c7f2a3631d}" IsUserDefined="0">
+                  <labels>
+                    <label description="" languagecode="1041" />
+                  </labels>
+                  <columns>
+                    <column width="25%">
+                      <sections>
+                        <section name="ColorStrip" showlabel="false" showbar="false" columns="1" IsUserDefined="0" id="{9e1c3f03-2f89-4cc8-a962-1a72a6497274}">
+                          <labels>
+                            <label description="ColorStrip" languagecode="1041" />
+                          </labels>
+                        </section>
+                      </sections>
+                    </column>
+                    <column width="75%">
+                      <sections>
+                        <section name="CardHeader" showlabel="false" showbar="false" columns="111" id="{1280370a-91fd-421d-919f-8593d01a40de}" IsUserDefined="0">
+                          <labels>
+                            <label description="ヘッダー" languagecode="1041" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{8a557a71-6679-42b1-93e0-f53e7112960c}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="ステータス" languagecode="1041" />
+                                </labels>
+                                <control id="statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+                              </cell>
+                              <cell id="{b9926d0b-6d84-4186-bdfe-fc15375317ef}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1041" />
+                                </labels>
+                              </cell>
+                              <cell id="{c0028e57-6282-47f8-b166-c86cd0bee3ed}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1041" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="CardDetails" showlabel="false" showbar="false" columns="1" id="{21a9b14d-ffdf-4eea-b4d3-d1069f120fff}" IsUserDefined="0">
+                          <labels>
+                            <label description="詳細" languagecode="1041" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{42a19399-8160-41f0-b3e2-14b73c69366f}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="Name" languagecode="1041" />
+                                </labels>
+                                <control id="new_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_name" disabled="false" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                        <section name="CardFooter" showlabel="false" columns="1111" showbar="false" id="{7e9f7871-7f82-425b-b062-fc8944ba0ef9}" IsUserDefined="0">
+                          <labels>
+                            <label description="フッター" languagecode="1041" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{9f184435-d001-42df-94a1-21991b8d44bf}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="所有者" languagecode="1041" />
+                                </labels>
+                                <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+                              </cell>
+                              <cell id="{d083e7e1-9949-4475-bee5-129149e12251}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="作成日" languagecode="1041" />
+                                </labels>
+                                <control id="createdon" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="createdon" disabled="false" />
+                              </cell>
+                              <cell id="{17ad3bf6-5569-4db6-a2bf-70494ead8894}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1041" />
+                                </labels>
+                              </cell>
+                              <cell id="{fb4e49c7-4c48-4fde-ab5e-52279b9e8cf5}" showlabel="true" locklevel="0">
+                                <labels>
+                                  <label description="" languagecode="1041" />
+                                </labels>
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+            </form>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <LocalizedNames>
+              <LocalizedName description="情報" languagecode="1041" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="このエンティティ用のカード フォームです。" languagecode="1041" />
+            </Descriptions>
+          </systemform>
+        </forms>
+        <forms type="main">
+          <systemform>
+            <formid>{e82f8f4a-d45b-473d-ae4b-514b90f40e68}</formid>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form>
+              <tabs>
+                <tab verticallayout="true" id="{f377d129-45c3-4ac7-a0ef-573ddfb5a2ff}" IsUserDefined="1">
+                  <labels>
+                    <label description="全般" languagecode="1041" />
+                  </labels>
+                  <columns>
+                    <column width="100%">
+                      <sections>
+                        <section showlabel="false" showbar="false" IsUserDefined="0" id="{232412fc-70fc-42c4-94a1-50f711999545}">
+                          <labels>
+                            <label description="全般" languagecode="1041" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{fda2be05-f013-42c8-9c14-aaa6b41fa1ee}">
+                                <labels>
+                                  <label description="Name" languagecode="1041" />
+                                </labels>
+                                <control id="new_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_name" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{0fb6c13a-0c28-4642-8faf-f6efb1cf4cd9}">
+                                <labels>
+                                  <label description="所有者" languagecode="1041" />
+                                </labels>
+                                <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+            </form>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <LocalizedNames>
+              <LocalizedName description="情報" languagecode="1041" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="このエンティティ用のフォームです。" languagecode="1041" />
+            </Descriptions>
+          </systemform>
+        </forms>
+        <forms type="quick">
+          <systemform>
+            <formid>{5c8835c3-783e-4b3f-9a52-3cf636a282ac}</formid>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <FormPresentation>1</FormPresentation>
+            <FormActivationState>1</FormActivationState>
+            <form>
+              <tabs>
+                <tab verticallayout="true" id="{5267c4c3-8e83-48e9-b894-7ee8c83d03e8}" IsUserDefined="1">
+                  <labels>
+                    <label description="" languagecode="1041" />
+                  </labels>
+                  <columns>
+                    <column width="100%">
+                      <sections>
+                        <section showlabel="false" showbar="false" IsUserDefined="0" id="{c5883b88-afe8-42d8-8d1d-93b398e16a36}">
+                          <labels>
+                            <label description="全般" languagecode="1041" />
+                          </labels>
+                          <rows>
+                            <row>
+                              <cell id="{540ad3cd-4485-45dc-96c4-04d166ddea75}">
+                                <labels>
+                                  <label description="Name" languagecode="1041" />
+                                </labels>
+                                <control id="new_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="new_name" />
+                              </cell>
+                            </row>
+                            <row>
+                              <cell id="{5be9a1b1-3fa3-4d88-a4a1-11c6dfbb43f9}">
+                                <labels>
+                                  <label description="所有者" languagecode="1041" />
+                                </labels>
+                                <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                              </cell>
+                            </row>
+                          </rows>
+                        </section>
+                      </sections>
+                    </column>
+                  </columns>
+                </tab>
+              </tabs>
+            </form>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <LocalizedNames>
+              <LocalizedName description="情報" languagecode="1041" />
+            </LocalizedNames>
+          </systemform>
+        </forms>
+      </FormXml>
+      <SavedQueries>
+        <savedqueries>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{f96ba927-1fa2-413f-99f2-bcd4c827d5e2}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="new_name" select="1" icon="1" preview="1">
+                <row name="result" id="new_testtableid">
+                  <cell name="new_name" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>0</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="new_testtable">
+                  <attribute name="new_testtableid" />
+                  <attribute name="new_name" />
+                  <attribute name="createdon" />
+                  <order attribute="new_name" descending="false" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="アクティブなテストテーブル" languagecode="1041" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>1</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{ac061dc2-38e4-49c9-ba54-ce98fa8fadd4}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="new_name" select="1" icon="1" preview="1">
+                <row name="result" id="new_testtableid">
+                  <cell name="new_name" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>4</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="new_testtable">
+                  <attribute name="new_testtableid" />
+                  <attribute name="new_name" />
+                  <attribute name="createdon" />
+                  <order attribute="new_name" descending="false" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                  </filter>
+                  <filter type="or" isquickfindfields="1">
+                    <condition attribute="new_name" operator="like" value="{0}" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="アクティブなテストテーブルの簡易検索" languagecode="1041" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{b8d34aeb-a2a4-4ad8-9e4c-62c50b355e2b}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="new_name" select="1" icon="1" preview="1">
+                <row name="result" id="new_testtableid">
+                  <cell name="new_name" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>1</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="new_testtable">
+                  <attribute name="new_testtableid" />
+                  <attribute name="new_name" />
+                  <attribute name="createdon" />
+                  <order attribute="new_name" descending="false" />
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="テストテーブルの高度な検索ビュー" languagecode="1041" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{4736b2e0-3024-492a-9547-8c036e29f023}</savedqueryid>
+            <layoutxml>
+              <grid name="new_testtables" jump="new_name" select="1" icon="1" preview="0">
+                <row name="new_testtable" id="new_testtableid">
+                  <cell name="new_name" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>64</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="new_testtable">
+                  <attribute name="new_testtableid" />
+                  <attribute name="new_name" />
+                  <attribute name="createdon" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="テストテーブル検索ダイアログ ビュー" languagecode="1041" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{921ce07a-82ed-417f-9c51-b4fe61135c28}</savedqueryid>
+            <layoutxml>
+              <grid name="new_testtables" jump="new_name" select="1" icon="1" preview="1">
+                <row name="new_testtable" id="new_testtableid">
+                  <cell name="new_name" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>2</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="new_testtable">
+                  <attribute name="new_testtableid" />
+                  <attribute name="new_name" />
+                  <attribute name="createdon" />
+                  <order attribute="new_name" descending="false" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="テストテーブル関連ビュー" languagecode="1041" />
+            </LocalizedNames>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>1</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>1</isdefault>
+            <savedqueryid>{4a07e68d-479b-ee11-be37-002248e9982d}</savedqueryid>
+            <querytype>8192</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical" output-format="xml-platform">
+                <entity name="new_testtable">
+                  <attribute name="new_testtableid" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="0" />
+                    <condition attribute="ownerid" operator="eq-userid" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="自分のテストテーブル" languagecode="1041" />
+            </LocalizedNames>
+            <Descriptions>
+              <Description description="自分が所有しているアクティブなテストテーブル" languagecode="1041" />
+            </Descriptions>
+          </savedquery>
+          <savedquery>
+            <IsCustomizable>1</IsCustomizable>
+            <CanBeDeleted>0</CanBeDeleted>
+            <isquickfindquery>0</isquickfindquery>
+            <isprivate>0</isprivate>
+            <isdefault>0</isdefault>
+            <savedqueryid>{9751674b-ffe9-4070-a5d9-645e79d35a1f}</savedqueryid>
+            <layoutxml>
+              <grid name="resultset" jump="new_name" select="1" icon="1" preview="1">
+                <row name="result" id="new_testtableid">
+                  <cell name="new_name" width="300" />
+                  <cell name="createdon" width="125" />
+                </row>
+              </grid>
+            </layoutxml>
+            <querytype>0</querytype>
+            <fetchxml>
+              <fetch version="1.0" mapping="logical">
+                <entity name="new_testtable">
+                  <attribute name="new_testtableid" />
+                  <attribute name="new_name" />
+                  <attribute name="createdon" />
+                  <order attribute="new_name" descending="false" />
+                  <filter type="and">
+                    <condition attribute="statecode" operator="eq" value="1" />
+                  </filter>
+                </entity>
+              </fetch>
+            </fetchxml>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <LocalizedNames>
+              <LocalizedName description="非アクティブなテストテーブル" languagecode="1041" />
+            </LocalizedNames>
+          </savedquery>
+        </savedqueries>
+      </SavedQueries>
+      <RibbonDiffXml>
+        <CustomActions />
+        <Templates>
+          <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+        </Templates>
+        <CommandDefinitions />
+        <RuleDefinitions>
+          <TabDisplayRules />
+          <DisplayRules />
+          <EnableRules />
+        </RuleDefinitions>
+        <LocLabels />
+      </RibbonDiffXml>
+    </Entity>
+  </Entities>
+  <Roles></Roles>
+  <Workflows></Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships>
+    <EntityRelationship Name="adx_invitation_invitecontacts">
+      <EntityRelationshipType>ManyToMany</EntityRelationshipType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <FirstEntityName>adx_invitation</FirstEntityName>
+      <SecondEntityName>Contact</SecondEntityName>
+      <IntersectEntityName>adx_invitation_invitecontacts</IntersectEntityName>
+      <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>20000</NavPaneOrder>
+          <NavigationPropertyName>adx_invitation_invitecontacts</NavigationPropertyName>
+          <CustomLabels>
+            <CustomLabel description="" languagecode="1041" />
+          </CustomLabels>
+          <AssociationRoleOrdinal>1</AssociationRoleOrdinal>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseLabel</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>10000</NavPaneOrder>
+          <NavigationPropertyName>adx_invitation_invitecontacts</NavigationPropertyName>
+          <CustomLabels>
+            <CustomLabel description="取引先担当者の招待" languagecode="1041" />
+          </CustomLabels>
+          <AssociationRoleOrdinal>2</AssociationRoleOrdinal>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="adx_invitation_redeemedcontacts">
+      <EntityRelationshipType>ManyToMany</EntityRelationshipType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <FirstEntityName>adx_invitation</FirstEntityName>
+      <SecondEntityName>Contact</SecondEntityName>
+      <IntersectEntityName>adx_invitation_redeemedcontacts</IntersectEntityName>
+      <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>20000</NavPaneOrder>
+          <NavigationPropertyName>adx_invitation_redeemedcontacts</NavigationPropertyName>
+          <CustomLabels>
+            <CustomLabel description="引き換え済みの招待状" languagecode="1041" />
+          </CustomLabels>
+          <AssociationRoleOrdinal>1</AssociationRoleOrdinal>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseLabel</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>10000</NavPaneOrder>
+          <NavigationPropertyName>adx_invitation_redeemedcontacts</NavigationPropertyName>
+          <CustomLabels>
+            <CustomLabel description="引き換え済みの取引先担当者" languagecode="1041" />
+          </CustomLabels>
+          <AssociationRoleOrdinal>2</AssociationRoleOrdinal>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="business_unit_new_testtable">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>new_testtable</ReferencingEntityName>
+      <ReferencedEntityName>BusinessUnit</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>OwningBusinessUnit</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="レコードを所有する部署を表す一意識別子" languagecode="1041" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="lk_new_testtable_createdby">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>new_testtable</ReferencingEntityName>
+      <ReferencedEntityName>SystemUser</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>CreatedBy</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="レコードを作成したユーザーを表す一意識別子。" languagecode="1041" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="lk_new_testtable_modifiedby">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>new_testtable</ReferencingEntityName>
+      <ReferencedEntityName>SystemUser</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>ModifiedBy</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="レコードを修正したユーザーを表す一意識別子。" languagecode="1041" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="msa_account_managingpartner">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>Account</ReferencingEntityName>
+      <ReferencedEntityName>Account</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>RemoveLink</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <CascadeRollupView>NoCascade</CascadeRollupView>
+      <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+      <ReferencingAttributeName>msa_managingpartnerid</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="Unique identifier for Account associated with Account." languagecode="1041" />
+        </Descriptions>
+      </RelationshipDescription>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseLabel</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>100400</NavPaneOrder>
+          <NavigationPropertyName>msa_managingpartnerid</NavigationPropertyName>
+          <CustomLabels>
+            <CustomLabel description="Managed Accounts" languagecode="1041" />
+          </CustomLabels>
+          <RelationshipRoleType>1</RelationshipRoleType>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <RelationshipRoleType>0</RelationshipRoleType>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="msa_contact_managingpartner">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>Contact</ReferencingEntityName>
+      <ReferencedEntityName>Account</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>RemoveLink</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <CascadeRollupView>NoCascade</CascadeRollupView>
+      <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+      <ReferencingAttributeName>msa_managingpartnerid</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="取引先担当者に関連付けられている取引先企業を表す一意識別子です。" languagecode="1041" />
+        </Descriptions>
+      </RelationshipDescription>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseLabel</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>100500</NavPaneOrder>
+          <NavigationPropertyName>msa_managingpartnerid</NavigationPropertyName>
+          <CustomLabels>
+            <CustomLabel description="管理対象の取引先担当者" languagecode="1041" />
+          </CustomLabels>
+          <RelationshipRoleType>1</RelationshipRoleType>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <RelationshipRoleType>0</RelationshipRoleType>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="msdyn_insightsid_salesaccelerationinsights">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IntroducedVersion>9.1.2201.5003</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>Account</ReferencingEntityName>
+      <ReferencedEntityName>msdyn_salesaccelerationinsight</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>RemoveLink</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <CascadeRollupView>NoCascade</CascadeRollupView>
+      <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+      <ReferencingAttributeName>msdyn_salesaccelerationinsightid</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="営業促進分析情報 ID" languagecode="1041" />
+        </Descriptions>
+      </RelationshipDescription>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>10000</NavPaneOrder>
+          <NavigationPropertyName>msdyn_salesaccelerationinsightid</NavigationPropertyName>
+          <CustomLabels>
+            <CustomLabel description="" languagecode="1041" />
+          </CustomLabels>
+          <RelationshipRoleType>1</RelationshipRoleType>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <RelationshipRoleType>0</RelationshipRoleType>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="msdyn_msdyn_accountkpiitem_account_accountkpiid">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>Account</ReferencingEntityName>
+      <ReferencedEntityName>msdyn_accountkpiitem</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>RemoveLink</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <CascadeRollupView>NoCascade</CascadeRollupView>
+      <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+      <ReferencingAttributeName>msdyn_accountkpiid</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="" languagecode="1041" />
+        </Descriptions>
+      </RelationshipDescription>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>10000</NavPaneOrder>
+          <NavigationPropertyName>msdyn_accountkpiid</NavigationPropertyName>
+          <CustomLabels>
+            <CustomLabel description="" languagecode="1041" />
+          </CustomLabels>
+          <RelationshipRoleType>1</RelationshipRoleType>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <RelationshipRoleType>0</RelationshipRoleType>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="msdyn_msdyn_contactkpiitem_contact_contactkpiid">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>Contact</ReferencingEntityName>
+      <ReferencedEntityName>msdyn_contactkpiitem</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>RemoveLink</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <CascadeRollupView>NoCascade</CascadeRollupView>
+      <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+      <ReferencingAttributeName>msdyn_contactkpiid</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="取引先担当者 KPI レコードにマップします" languagecode="1041" />
+        </Descriptions>
+      </RelationshipDescription>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>10000</NavPaneOrder>
+          <NavigationPropertyName>msdyn_contactkpiid</NavigationPropertyName>
+          <CustomLabels>
+            <CustomLabel description="" languagecode="1041" />
+          </CustomLabels>
+          <RelationshipRoleType>1</RelationshipRoleType>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <RelationshipRoleType>0</RelationshipRoleType>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="msdyn_msdyn_functionallocation_account">
+      <EntityRelationshipType>ManyToMany</EntityRelationshipType>
+      <IntroducedVersion>1.0.0.58</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <FirstEntityName>msdyn_FunctionalLocation</FirstEntityName>
+      <SecondEntityName>Account</SecondEntityName>
+      <IntersectEntityName>msdyn_msdyn_functionallocation_account</IntersectEntityName>
+      <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>10000</NavPaneOrder>
+          <NavigationPropertyName>msdyn_msdyn_functionallocation_account</NavigationPropertyName>
+          <AssociationRoleOrdinal>1</AssociationRoleOrdinal>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>10000</NavPaneOrder>
+          <NavigationPropertyName>msdyn_msdyn_functionallocation_account</NavigationPropertyName>
+          <AssociationRoleOrdinal>2</AssociationRoleOrdinal>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="owner_new_testtable">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>new_testtable</ReferencingEntityName>
+      <ReferencedEntityName>Owner</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>OwnerId</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="所有者 ID" languagecode="1041" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="powerpagecomponent_mspp_webrole_account">
+      <EntityRelationshipType>ManyToMany</EntityRelationshipType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <FirstEntityName>powerpagecomponent</FirstEntityName>
+      <SecondEntityName>Account</SecondEntityName>
+      <IntersectEntityName>powerpagecomponent_mspp_webrole_account</IntersectEntityName>
+      <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>100600</NavPaneOrder>
+          <NavigationPropertyName>powerpagecomponent_mspp_webrole_account</NavigationPropertyName>
+          <CustomLabels>
+            <CustomLabel description="" languagecode="1041" />
+          </CustomLabels>
+          <AssociationRoleOrdinal>1</AssociationRoleOrdinal>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>100100</NavPaneOrder>
+          <NavigationPropertyName>powerpagecomponent_mspp_webrole_account</NavigationPropertyName>
+          <CustomLabels>
+            <CustomLabel description="" languagecode="1041" />
+          </CustomLabels>
+          <AssociationRoleOrdinal>2</AssociationRoleOrdinal>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="powerpagecomponent_mspp_webrole_contact">
+      <EntityRelationshipType>ManyToMany</EntityRelationshipType>
+      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <FirstEntityName>powerpagecomponent</FirstEntityName>
+      <SecondEntityName>Contact</SecondEntityName>
+      <IntersectEntityName>powerpagecomponent_mspp_webrole_contact</IntersectEntityName>
+      <IsValidForAdvancedFind>1</IsValidForAdvancedFind>
+      <EntityRelationshipRoles>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>DoNotDisplay</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>103100</NavPaneOrder>
+          <NavigationPropertyName>powerpagecomponent_mspp_webrole_contact</NavigationPropertyName>
+          <CustomLabels>
+            <CustomLabel description="" languagecode="1041" />
+          </CustomLabels>
+          <AssociationRoleOrdinal>1</AssociationRoleOrdinal>
+        </EntityRelationshipRole>
+        <EntityRelationshipRole>
+          <NavPaneDisplayOption>UseCollectionName</NavPaneDisplayOption>
+          <NavPaneArea>Details</NavPaneArea>
+          <NavPaneOrder>100300</NavPaneOrder>
+          <NavigationPropertyName>powerpagecomponent_mspp_webrole_contact</NavigationPropertyName>
+          <CustomLabels>
+            <CustomLabel description="" languagecode="1041" />
+          </CustomLabels>
+          <AssociationRoleOrdinal>2</AssociationRoleOrdinal>
+        </EntityRelationshipRole>
+      </EntityRelationshipRoles>
+    </EntityRelationship>
+    <EntityRelationship Name="team_new_testtable">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>new_testtable</ReferencingEntityName>
+      <ReferencedEntityName>Team</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>OwningTeam</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="レコードを所有するチームを表す一意識別子です。" languagecode="1041" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+    <EntityRelationship Name="user_new_testtable">
+      <EntityRelationshipType>OneToMany</EntityRelationshipType>
+      <IsCustomizable>1</IsCustomizable>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsHierarchical>0</IsHierarchical>
+      <ReferencingEntityName>new_testtable</ReferencingEntityName>
+      <ReferencedEntityName>SystemUser</ReferencedEntityName>
+      <CascadeAssign>NoCascade</CascadeAssign>
+      <CascadeDelete>NoCascade</CascadeDelete>
+      <CascadeArchive>NoCascade</CascadeArchive>
+      <CascadeReparent>NoCascade</CascadeReparent>
+      <CascadeShare>NoCascade</CascadeShare>
+      <CascadeUnshare>NoCascade</CascadeUnshare>
+      <ReferencingAttributeName>OwningUser</ReferencingAttributeName>
+      <RelationshipDescription>
+        <Descriptions>
+          <Description description="レコードを所有するユーザーを表す一意識別子です。" languagecode="1041" />
+        </Descriptions>
+      </RelationshipDescription>
+    </EntityRelationship>
+  </EntityRelationships>
+  <OrganizationSettings />
+  <optionsets />
+  <InteractionCentricDashboards>
+    <InteractionCentricDashboard>
+      <LocalizedNames>
+        <LocalizedName description="取引先企業ダッシュボード" languagecode="1041" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="取引先企業に関連したデータの概要を表示します。" languagecode="1041" />
+      </Descriptions>
+      <FormId>{15915835-b87c-49ec-9ffc-bfac3ac44ef1}</FormId>
+      <IsDefault>0</IsDefault>
+      <FormXml>
+        <forms type="interactioncentricdashboard">
+          <form>
+            <tabs filterby="createdon" timeframe="7" primaryentitylogicalname="account" entityview="{00000000-0000-0000-00AA-000010001002}" dashboardCategory="1_1" tilespresent="false">
+              <tab showlabel="true" verticallayout="true" collapsible="true" id="{24fa8919-d169-4242-81cf-328f4a32377d}">
+                <labels>
+                  <label description="" languagecode="1041" />
+                </labels>
+                <columns>
+                  <column width="100%">
+                    <sections>
+                      <section name="VisualFilters" showlabel="false" showbar="false" columns="1111" id="{0a032952-edaf-4639-8613-10890822010f}">
+                        <labels>
+                          <label description="" languagecode="1041" />
+                        </labels>
+                        <rows>
+                          <row>
+                            <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{34e280b1-b19c-429c-8fd5-a348ee9bae12}" auto="false">
+                              <labels>
+                                <label description="取引先企業 " languagecode="1041" />
+                              </labels>
+                              <control id="Componentc4e86d7" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                                <parameters>
+                                  <TargetEntityType>account</TargetEntityType>
+                                  <ChartGridMode>Chart</ChartGridMode>
+                                  <EnableQuickFind>false</EnableQuickFind>
+                                  <EnableViewPicker>false</EnableViewPicker>
+                                  <EnableJumpBar>false</EnableJumpBar>
+                                  <RecordsPerPage>10</RecordsPerPage>
+                                  <ViewId>{00000000-0000-0000-00AA-000010001002}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{74A622C0-5193-DE11-97D4-00155DA3B01E}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                            <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{8e3a4afb-fe9c-40c0-ab92-7b29e22a3fda}" auto="false">
+                              <labels>
+                                <label description="取引先企業 " languagecode="1041" />
+                              </labels>
+                              <control id="Component2316e00" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                                <parameters>
+                                  <TargetEntityType>account</TargetEntityType>
+                                  <ChartGridMode>Chart</ChartGridMode>
+                                  <EnableQuickFind>false</EnableQuickFind>
+                                  <EnableViewPicker>false</EnableViewPicker>
+                                  <EnableJumpBar>false</EnableJumpBar>
+                                  <RecordsPerPage>10</RecordsPerPage>
+                                  <ViewId>{00000000-0000-0000-00AA-000010001002}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{be178262-6142-4b41-85b7-4ccedc62cfd9}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                            <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{46dcfd3b-a55f-4a31-ac5b-0600e9825760}" auto="false">
+                              <labels>
+                                <label description="取引先企業 " languagecode="1041" />
+                              </labels>
+                              <control id="Component666c4a4" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                                <parameters>
+                                  <TargetEntityType>account</TargetEntityType>
+                                  <ChartGridMode>Chart</ChartGridMode>
+                                  <EnableQuickFind>false</EnableQuickFind>
+                                  <EnableViewPicker>false</EnableViewPicker>
+                                  <EnableJumpBar>false</EnableJumpBar>
+                                  <RecordsPerPage>10</RecordsPerPage>
+                                  <ViewId>{00000000-0000-0000-00AA-000010001002}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{5B290FFF-355F-DF11-AE90-00155D2E3002}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                            <cell colspan="1" rowspan="12" showlabel="false" ispreviewcell="true" ischartcell="true" id="{134cc0fd-761c-4b6c-8651-a6f65699daf0}">
+                              <labels>
+                                <label description="" languagecode="1041" />
+                              </labels>
+                            </cell>
+                          </row>
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                        </rows>
+                      </section>
+                    </sections>
+                  </column>
+                </columns>
+              </tab>
+              <tab name="StreamsContainer" showlabel="true" verticallayout="true" collapsible="false" id="{04777963-a981-4d85-bb77-948111df0bdf}">
+                <labels>
+                  <label description="" languagecode="1041" />
+                </labels>
+                <columns>
+                  <column width="100%">
+                    <sections>
+                      <section name="Streams" showlabel="false" showbar="false" columns="1111" id="{98a04539-b529-4c9a-bf6d-d7ea5f171302}">
+                        <labels>
+                          <label description="" languagecode="1041" />
+                        </labels>
+                        <rows>
+                          <row>
+                            <cell colspan="4" rowspan="12" showlabel="false" isstreamcell="true" id="{0c1ce1d7-749f-4fcc-86cb-9f10d78ea056}">
+                              <labels>
+                                <label description="" languagecode="1041" />
+                              </labels>
+                              <control id="Component{c25c1ba2-33b6-0760-d1cc-7621224bdaa7}" classid="{EE9078C8-6946-4E2C-B8F8-35E65F4BE6A8}">
+                                <parameters>
+                                  <StreamObjects>
+                                    <ShowAsTiles>false</ShowAsTiles>
+                                    <StreamObject type="1" id="{f4e583f5-7e73-43eb-8793-276b20ff1b27}">
+                                      <LogicalEntityName>account</LogicalEntityName>
+                                      <EntityViewId>{00000000-0000-0000-00AA-000010001001}</EntityViewId>
+                                    </StreamObject>
+                                    <StreamObject type="1" id="{1974731d-f185-4bc4-b6dd-37a6fcb8e847}">
+                                      <LogicalEntityName>account</LogicalEntityName>
+                                      <EntityViewId>{00000000-0000-0000-00AA-000010001002}</EntityViewId>
+                                    </StreamObject>
+                                    <StreamObject type="1" id="{81CFD7EA-7DBD-451F-A2BA-60E61EB50E29}">
+                                      <LogicalEntityName>account</LogicalEntityName>
+                                      <EntityViewId>{00000000-0000-0000-00AA-000010001031}</EntityViewId>
+                                    </StreamObject>
+                                    <StreamObject type="1" id="{AF63BE3B-FBAA-44D4-AF06-7B52EF6C7F8E}">
+                                      <LogicalEntityName>account</LogicalEntityName>
+                                      <EntityViewId>{65FFAF9A-E8C5-432D-860B-32F841B00D87}</EntityViewId>
+                                    </StreamObject>
+                                  </StreamObjects>
+                                </parameters>
+                              </control>
+                            </cell>
+                          </row>
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                        </rows>
+                      </section>
+                    </sections>
+                  </column>
+                </columns>
+              </tab>
+            </tabs>
+          </form>
+        </forms>
+      </FormXml>
+      <IntroducedVersion>8.0.0.0</IntroducedVersion>
+      <IsTabletEnabled>0</IsTabletEnabled>
+    </InteractionCentricDashboard>
+    <InteractionCentricDashboard unmodified="1">
+      <LocalizedNames>
+        <LocalizedName description="取引先担当者ダッシュボード" languagecode="1041" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="取引先担当者に関連したデータの概要を表示します。" languagecode="1041" />
+      </Descriptions>
+      <FormId>{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}</FormId>
+    </InteractionCentricDashboard>
+  </InteractionCentricDashboards>
+  <CustomControls />
+  <EntityDataProviders />
+  <Languages>
+    <Language>1041</Language>
+  </Languages>
+</ImportExportXml>
