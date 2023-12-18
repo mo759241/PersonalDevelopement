@@ -112,7 +112,12 @@ namespace ExportView
             dt.Columns.Add("ビュー名", typeof(string));
             dt.Columns.Add("種類", typeof(string));
             dt.Columns.Add("フィルター", typeof(string));
-            dt.Columns.Add("フィールド名", typeof(string));
+            dt.Columns.Add("フィールド物理名", typeof(string));
+            dt.Columns.Add("フィールド表示名", typeof(string));
+            dt.Columns.Add("ソート１", typeof(string));
+            dt.Columns.Add("ソート２", typeof(string));
+            dt.Columns.Add("ソート３", typeof(string));
+            dt.Columns.Add("備考", typeof(string));
 
             return dt;
         }
@@ -123,21 +128,32 @@ namespace ExportView
         /// <param name="dt"></param>
         /// <param name="tableName"></param>
         /// <param name="viewType"></param>
+        /// <param name="viewName"></param>
         /// <param name="fieldName"></param>
+        /// <param name="description"></param>
+        /// <param name="sort"></param>
         /// <returns>行追加後のテーブル</returns>
-        public DataTable AddRowToViewDefinitionTable(DataTable dt, string tableName, string viewType, string viewName, string fieldName)
+        public DataTable AddRowToViewDefinitionTable(DataTable dt, string tableName, string viewTypeCode, string viewName, string fieldNamePhysical, string fieldNameDisplay, string description, string[] sort)
         {
             DataRow dr = dt.NewRow();
             dr["No"] = dt.Rows.Count + 1;
             dr["テーブル名"] = tableName;
             dr["ビュー名"] = viewName;
-            dr["種類"] = Const.TranViewType[viewType];
+            string viewType = Const.TranViewType.TryGetValue(viewTypeCode, out string value)
+                                ? Const.TranViewType[viewTypeCode]
+                                : "-";
+            dr["種類"] = viewType;
             dr["フィルター"] = "";
-            dr["フィールド名"] = fieldName;
+            dr["フィールド物理名"] = fieldNamePhysical;
+            dr["フィールド表示名"] = fieldNameDisplay;
+            dr["ソート１"] = sort[0];
+            dr["ソート２"] = sort[1];
+            dr["ソート３"] = sort[2];
+            dr["備考"] = description;
 
             dt.Rows.Add(dr);
 
-            Console.WriteLine(dt.Rows.Count + 1 + " - " + tableName + " - " + viewName + " - " + Const.TranViewType[viewType] + " - " + fieldName);
+            Console.WriteLine(dt.Rows.Count + 1 + " - " + tableName + " - " + viewName + " - " + viewType + " - " + fieldNamePhysical + "(" + fieldNameDisplay + ") - " + description + "ソート１：" + sort[0] + "ソート２：" + sort[1] + "ソート３：" + sort[2]);
 
             return dt;
         }

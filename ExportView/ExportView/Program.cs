@@ -7,14 +7,11 @@ namespace ExportView
 {
     class Program
     {
-        readonly private static string SAUCE_FILE_PATH = "customizations.xml";
-        readonly private static string TEMPLETE_FILE_PATH = "ViewDefinition.xlsx";
-        readonly private static string OUTPUT_FILE_PATH = "ViewDefinition_write.xlsx";
-        readonly private static string VIEW_DEFINITION_SHEET_NAME = "Sheet1";
-        readonly private static string VIEW_DEFINITION_INSERT_CELL = "B2";
-
-        // シート名に使えない文字
-        readonly private static string[] INVALID_CHARS_IN_WORKSHEET_NAME = { @"\", @"/", @"?", @"*", @"[", @"]" };
+        readonly private static string SAUCE_FILE_PATH = @"customizations.xml";
+        readonly private static string TEMPLETE_FILE_PATH = @"ViewDefinition.xlsx";
+        readonly private static string OUTPUT_FILE_PATH = @"Excel\ViewDefinition_write.xlsx";
+        readonly private static string VIEW_DEFINITION_SHEET_NAME = @"Sheet1";
+        readonly private static string VIEW_DEFINITION_INSERT_CELL = @"B2";
 
         public static void Main(string[] args)
         {
@@ -33,57 +30,155 @@ namespace ExportView
                                    select item).First().Elements("Entity")
                            select item;
 
-            //テーブル数分ループして、ビュー名、ビューの列名を取得してテーブルに出力する
+            //ビューの種類格納用
+            var viewTypeCode = "";
+
+            //ビュー名格納用
+            var viewName = "";
+
+            //ビューの種類格納用
+            var queryType = "";
+
+            //フィールド物理名格納用
+            var fieldNamePhysical = "";
+
+            //フィールド表示名格納用
+            var fieldNameDisplay = "";
+
+            //備考
+            var description = "";
+
+            //ソート順の格納用配列
+            string[] sort = { "", "", "" };
+
+            //テーブル数分ループ
             foreach (XElement entity in entities)
             {
+                //テーブル名の取得
                 var entityName = entity.Element("Name").FirstAttribute.Value;
 
-                var allQueries = (from item in entity.Elements("SavedQueries")
-                                  select item);
-
-                if (allQueries.Count() == 0)
-                {
-                    continue;
-                }
-
-                var savedQueries = from item in
-                                          (from item in allQueries.First().Elements("savedqueries")
-                                           select item).First().Elements("savedquery")
+                //ビューの取得
+                var savedQueries = from item in entity.Descendants("savedquery")
                                    select item;
 
+                if (savedQueries.Count() == 0)
+                {
+                    viewTypeCode = "-";
+                    viewName = "-";
+                    fieldNamePhysical = "-";
+                    fieldNameDisplay = "-";
+                    description = "対象のクエリ無し";
+                    sort = new string[] { "", "", "" };
+
+                    //ビューが存在しない場合はテーブル名のみ出力
+                    excel.AddRowToViewDefinitionTable(viewDt, entityName, viewTypeCode, viewName, fieldNamePhysical, fieldNameDisplay, description, sort);
+                }
+
+                //ビューの数分ループ
                 foreach (XElement savedQuery in savedQueries)
                 {
-                    var localizedName = (from item in
-                                             (from item in savedQuery.Elements("LocalizedNames")
-                                              select item).First().Elements("LocalizedName")
-                                         select item).First().FirstAttribute.Value;
+                    string[,] sortFields = { { "", "0", "" }, { "", "1", "" }, { "", "2", "" } };
 
-                    var queryType = (from item in savedQuery.Elements("querytype")
-                                     select item).First().Value;
+                    //ビュー名の取得
+                    viewName = (from item in savedQuery.Descendants("LocalizedName")
+                                select item).FirstOrDefault(e => e.Attribute("languagecode")?.Value == "1041")?.Attribute("description").Value;
 
-                    var layoutxml = from item in savedQuery.Elements("layoutxml")
-                                    select item;
-                    if (layoutxml.Count() == 0)
+                    //ビューの種類の取得
+                    viewTypeCode = (from item in savedQuery.Elements("querytype")
+                                    select item).FirstOrDefault().Value;
+
+                    //ビューの列（簡易検索ビューの場合は検索列）を取得
+                    IEnumerable<XElement> fields;
+                    string fieldNameAttribute;
+
+                    if (Equals(queryType, "4"))
                     {
-                        continue;
+                        //検索列の取得
+                        var quickFindFieldsFilter = (from item in savedQuery.Descendants("filter")
+                                                     select item).FirstOrDefault(e => e.Attribute("isquickfindfields")?.Value == "1");
+                        fields = from item in quickFindFieldsFilter.Descendants("condition")
+                                 select item;
+
+                        //ビュー列名が格納されているプロパティ名
+                        fieldNameAttribute = "attribute";
+                    }
+                    else
+                    {
+                        //ソート順の取得
+                        var orders = from item in savedQuery.Descendants("order")
+                                     select item;
+                        var count = 0;
+                        foreach (XElement order in orders)
+                        {
+                            if (count > 2)
+                            {
+                                description = "ソート列が4つ以上存在";
+                                break;
+                            }
+
+                            sortFields[count, 0] = order.Attribute("attribute").Value;
+                            sortFields[count, 2] = order.Attribute("descending").Value;
+                            count++;
+                        }
+
+                        //ビュー列の取得
+                        fields = from item in savedQuery.Descendants("cell")
+                                 select item;
+
+                        //ビュー列名が格納されているプロパティ名
+                        fieldNameAttribute = "name";
                     }
 
-                    var cells = from item in
-                                    (from item in
-                                         (from item in layoutxml.First().Elements("grid")
-                                          select item).First().Elements("row")
-                                     select item).First().Elements("cell")
-                                select item;
-
-                    foreach (XElement cell in cells)
+                    //フィールドが存在しない場合は対象フィールドなしとして出力（原則あり得ないパターン）
+                    if (fields.Count() == 0)
                     {
-                        var fieldName = cell.FirstAttribute.Value;
-                        // エンティティ定義テーブルに行追加してエンティティメタデータを設定
-                        excel.AddRowToViewDefinitionTable(viewDt, entityName, queryType, localizedName, fieldName);
+                        fieldNamePhysical = "-";
+                        fieldNameDisplay = "-";
+                        description = "対象フィールド無し";
+                        sort = new string[] { "", "", "" };
+
+                        excel.AddRowToViewDefinitionTable(viewDt, entityName, viewTypeCode, viewName, fieldNamePhysical, fieldNameDisplay, description, sort);
+                    }
+
+                    //ビュー列の数分ループ
+                    foreach (XElement field in fields)
+                    {
+                        sort = new string[] { "", "", "" };
+                        //ビュー列名の取得
+                        fieldNamePhysical = field.Attribute(fieldNameAttribute).Value;
+
+                        var entityInfo = (from item in entity.Descendants("EntityInfo")
+                                          select item).First();
+                        var attributes = from item in entityInfo.Descendants("attribute")
+                                         select item;
+                        fieldNameDisplay = "該当なし";
+                        foreach (var attribute in attributes)
+                        {
+                            fieldNameDisplay = "該当なし";
+                            var fieldNamePhysical_cp = (from item in attribute.Descendants("LogicalName")
+                                                        select item).First().Value;
+                            if (Equals(fieldNamePhysical_cp, fieldNamePhysical))
+                            {
+                                fieldNameDisplay = (from item in attribute.Descendants("displayname")
+                                                    select item).FirstOrDefault(e => e.Attribute("languagecode")?.Value == "1041")?.Attribute("description").Value;
+                                break;
+                            }
+                        }
+
+                        //取得したソート順にフィールドが存在する場合はsort変数にソート情報を設定
+                        for (var i = 0; i < sort.Length; i++)
+                        {
+                            if (Equals(sortFields[i, 0], fieldNamePhysical))
+                                sort[int.Parse(sortFields[i, 1])] = Equals(sortFields[i, 2], "false") ? "▲" : "▼";
+                        }
+
+                        description = "";
+                        // ビュー定義テーブルに行追加
+                        excel.AddRowToViewDefinitionTable(viewDt, entityName, viewTypeCode, viewName, fieldNamePhysical, fieldNameDisplay, description, sort);
                     }
                 }
             }
-            // エンティティ定義シートにテーブルを出力
+            // Excelのシートにビュー定義テーブルを出力
             excel.Worksheet.Cell(VIEW_DEFINITION_INSERT_CELL).InsertTable(viewDt);
 
             // Excelファイルを出力

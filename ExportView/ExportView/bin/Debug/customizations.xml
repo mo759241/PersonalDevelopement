@@ -368,6 +368,7 @@
             </fetchxml>
             <IntroducedVersion>9.0.0.0</IntroducedVersion>
             <LocalizedNames>
+              <LocalizedName description="All Accounts" languagecode="1033" />
               <LocalizedName description="すべての取引先企業" languagecode="1041" />
             </LocalizedNames>
           </savedquery>
@@ -2161,6 +2162,12 @@
                 <row name="result" id="new_testtableid">
                   <cell name="new_name" width="300" />
                   <cell name="createdon" width="125" />
+                  <cell name="statuscode" width="110" />
+                  <cell name="createdby" width="100" />
+                  <cell name="modifiedby" width="100" />
+                  <cell name="modifiedon" width="100" />
+                  <cell name="ownerid" width="100" />
+                  <cell name="statecode" width="100" />
                 </row>
               </grid>
             </layoutxml>
@@ -2171,10 +2178,23 @@
                   <attribute name="new_testtableid" />
                   <attribute name="new_name" />
                   <attribute name="createdon" />
-                  <order attribute="new_name" descending="false" />
                   <filter type="and">
                     <condition attribute="statecode" operator="eq" value="0" />
                   </filter>
+                  <attribute name="statuscode" />
+                  <attribute name="createdby" />
+                  <attribute name="modifiedby" />
+                  <attribute name="modifiedon" />
+                  <attribute name="ownerid" />
+                  <attribute name="statecode" />
+                  <order attribute="new_name" descending="false" />
+                  <order attribute="createdon" descending="false" />
+                  <order attribute="ownerid" descending="false" />
+                  <order attribute="statecode" descending="false" />
+                  <order attribute="statuscode" descending="false" />
+                  <order attribute="modifiedon" descending="false" />
+                  <order attribute="createdby" descending="false" />
+                  <order attribute="modifiedby" descending="false" />
                 </entity>
               </fetch>
             </fetchxml>
